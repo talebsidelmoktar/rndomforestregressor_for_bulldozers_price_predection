@@ -22,6 +22,7 @@ Clone the repository:
 
 bash
 Copy code
+
 git clone https://github.com/your-username/bulldozer-price-prediction.git
 cd bulldozer-price-prediction
 Create a virtual environment and activate it:
@@ -61,23 +62,7 @@ Use the trained model to make predictions on new data.
 bash
 Copy code
 python predict.py --input new_data.csv --output predictions.csv
-Project Structure
-bash
-Copy code
-bulldozer-price-prediction/
-├── data/
-│   └── bulldozers.csv          # Raw dataset
-├── notebooks/
-│   └── exploratory_analysis.ipynb  # Jupyter notebook for initial exploration
-├── scripts/
-│   ├── preprocess_data.py      # Data preprocessing script
-│   ├── train_model.py          # Model training script
-│   ├── evaluate_model.py       # Model evaluation script
-│   └── predict.py              # Prediction script
-├── models/
-│   └── random_forest_model.pkl # Trained model
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project description
+
 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an Issue to improve the project.
 
